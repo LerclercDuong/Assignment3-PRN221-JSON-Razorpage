@@ -1,0 +1,45 @@
+﻿@page
+@model PRN221_Assignment3_Json.Pages.KoiFishPage.IndexModel
+@{
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+
+<h1>Koi fish list</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var koiFish in Model.koi)
+    {
+        <div class="col">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h3 class="card-title">@koiFish.KoiFishName</h3>
+                    <p><strong>Color:</strong> @koiFish.KoiFishColor</p>
+                    <p><strong>Size:</strong> @koiFish.KoiFishSize cm</p>
+                    <p><strong>Age:</strong> @koiFish.KoiFishAge years</p>
+                    <p><strong>Price:</strong> @koiFish.KoiFishPrice USD</p>
+                    <p><strong>Origin:</strong> @koiFish.KoiFishOrigin</p>
+                    <p><strong>Symbolic Meaning:</strong> @koiFish.SymbolicMeaning</p>
+                    <p><strong>Energy Type:</strong> @koiFish.EnergyType</p>
+                    <p><strong>Favorable Color:</strong> @koiFish.FavorableColor</p>
+                    <p><strong>Favorable Number:</strong> @koiFish.FavorableNumber</p>
+
+                    <div>
+                        <h6>Pictures:</h6>
+                        <div class="d-flex flex-wrap">
+                            @foreach (var picture in koiFish.KoiFishPictures)
+                            {
+                                <img src="https://d114iff5rn0elq.cloudfront.net/@picture" alt="@koiFish.KoiFishName" class="img-thumbnail m-1" width="100" />
+                            }
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <h6>Feng Shui Element</h6>
+                        <p><strong>Element:</strong> @koiFish.FengShuiElement.ElementName</p>
+                        <p><strong>Strength:</strong> @koiFish.FengShuiElement.ElementStrength</p>
+                        <p><strong>Season:</strong> @koiFish.FengShuiElement.ElementSeason</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

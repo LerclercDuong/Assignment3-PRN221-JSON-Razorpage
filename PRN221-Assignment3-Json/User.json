@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "09ba55cc-d0b1-7081-7f43-28efdc89752b",
+    "Username": "krisdekk",
+    "Email": "krisdekk@gmail.com",
+    "Password": "123@",
+    "Role": 1
+  },
+  {
+    "Id": "091a652c-1051-70ad-edf8-7f661c5e2484",
+    "Username": "mduct4k1061203",
+    "Email": "mduct4k1061203@gmail.com",
+    "Password": "123@",
+    "Role": 1
+  },
+  {
+    "Id": "c90ad50c-2021-70be-f930-b71ceb915306",
+    "Username": "triddmse173111",
+    "Email": "triddmse173111@fpt.edu.vn",
+    "Password": "123@",
+    "Role": 1
+  },
+  {
+    "Id": "697a555c-4071-706c-2c55-b34a8ca9f1dc",
+    "Username": "huynqse172945",
+    "Email": "huynqse172945@fpt.edu.vn",
+    "Password": "123@",
+    "Role": 1
+  },
+  {
+    "Id": "19bac5ac-b0b1-708c-9df2-fb05aa6f2710",
+    "Username": "hieutnkse172773",
+    "Email": "hieutnkse172773@fpt.edu.vn",
+    "Password": "123@",
+    "Role": 1
+  }
+]

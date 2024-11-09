@@ -1,0 +1,68 @@
+﻿@page
+@model PRN221_Assignment3_Json.Pages.AdvertisementPage.IndexModel
+@{
+}
+
+<h2>Advertisements</h2>
+
+
+<div class="grid-container">
+    @foreach (var ad in Model.Advertisements)
+    {
+        <div class="card">
+            <!-- Top section: Koi Fish Image -->
+            <div class="card-image">
+                <img src="https://d114iff5rn0elq.cloudfront.net/@ad.KoiFishPictures.FirstOrDefault()" alt="Koi Fish Image" />
+            </div>
+
+            <!-- Bottom section: Information -->
+            <div class="card-content">
+                <h3>@ad.Title</h3>
+                <p><strong>Description:</strong> $@ad.Description</p>
+                <p><strong>Price:</strong> $@ad.Price</p>
+                <p><strong>Koi Fish:</strong> @ad.KoiFishName</p>
+                <p><strong>Posted By:</strong> @ad.PostedByName</p>
+            </div>
+            <a class="btn" asp-page="/AdvertisementPage/Details" asp-route-adsId="@ad.AdvertisementId">View detail</a>
+        </div>
+    }
+</div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 3 cards per row */
+        gap: 20px;
+    }
+
+    /* Card styling */
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Card image styling */
+    .card-image img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    /* Card content styling */
+    .card-content {
+        padding: 16px;
+    }
+
+        .card-content h3 {
+            margin: 0 0 8px;
+            font-size: 1.2em;
+        }
+
+        .card-content p {
+            margin: 4px 0;
+            color: #555;
+        }
+</style>

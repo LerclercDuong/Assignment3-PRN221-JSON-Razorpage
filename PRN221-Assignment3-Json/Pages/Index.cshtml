@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@if(TempData["Message"] != null)
+{
+    <p>@TempData["Message"]</p>
+}
+
+<div>
+    <h1>Login form</h1>
+    <form method="post">
+        <label class="form-label">Email</label>
+        <input class="input" type="email name="email" asp-for="email"/>
+        <label class="form-label">Password</label>
+        <input class="input" type="password" name="password" asp-for="password" />
+        <button class="login-button" type="submit">Login</button>
+    </form>
+</div>
+<style>
+    .form-lable{
+        display: block;
+    }
+    .input{
+        width: 240px;
+        display: block;
+    }
+
+    .login-button{
+        margin-top: 15px;
+        display: block;
+    }
+</style>

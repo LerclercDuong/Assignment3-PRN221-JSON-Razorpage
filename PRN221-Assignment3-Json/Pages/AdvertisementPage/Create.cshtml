@@ -1,0 +1,39 @@
+﻿@page
+@model PRN221_Assignment3_Json.Pages.AdveritsementPage.CreateModel
+@{
+    ViewData["Title"] = "Create Advertisement";
+}
+
+<h2>Create Advertisement</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input class="form-control" asp-for="Advertisement.Title" />
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea class="form-control" asp-for="Advertisement.Description"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input class="form-control" asp-for="Advertisement.Price" />
+    </div>
+
+    <div class="form-group">
+        <label for="KoiFishId">Koi Fish</label>
+        <select asp-for="Advertisement.KoiFishId" class="form-control" asp-items="Model.KoiFishList"></select>
+    </div>
+
+
+     <div class="form-group">
+         <label for="PostedByUserId">Posted By (User)</label>
+         <input hidden class="form-control" asp-for="Advertisement.PostedByUserId" value="@Model.UserId" readonly />
+     </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Create Advertisement</button>
+</form>
+
+<a href="@Url.Page("/AdvertisementPage/Index")" class="btn btn-secondary mt-2">Cancel</a>

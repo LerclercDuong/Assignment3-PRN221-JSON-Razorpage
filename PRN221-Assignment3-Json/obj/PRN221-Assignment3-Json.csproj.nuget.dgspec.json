@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\BOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\BOs.csproj",
+        "projectName": "BOs",
+        "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\BOs.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\Daos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\Daos.csproj",
+        "projectName": "Daos",
+        "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\Daos.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\BOs.csproj": {
+                "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\BOs\\BOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json.csproj",
+        "projectName": "PRN221-Assignment3-Json",
+        "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\PRN221-Assignment3-Json\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\Daos.csproj": {
+                "projectPath": "C:\\Users\\doant\\source\\repos\\PRN221-Assignment3-Json\\Daos\\Daos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

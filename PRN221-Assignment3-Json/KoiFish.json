@@ -1,0 +1,119 @@
+﻿[
+  {
+    "Id": "506437a1-7ca5-4984-888c-7c148ebda81c",
+    "KoiFishName": "Chagoi",
+    "KoiFishColor": "Nâu",
+    "KoiFishSize": 70.0,
+    "KoiFishAge": 7.0,
+    "KoiFishPictures": [
+      "KOI_FISH/d03351bd-900b-44b4-8c55-ddf9f6a826ae.avif",
+      "KOI_FISH/getting-to-know-kohaku-koi.jpg"
+    ],
+    "FengShuiElement": {
+      "elementId": "d3f4e345-9073-4e9a-b76a-6f8df76b0faa",
+      "elementName": "Earth",
+      "elementColor": "Yellow",
+      "elementDirection": "Center",
+      "elementSeason": "Late Summer",
+      "elementYinYang": "Yin",
+      "elementAssociatedAnimals": "Cows, Pigs",
+      "elementStrength": 100,
+      "createdAt": "2024-10-01T03:46:09.746827",
+      "updatedAt": "2024-10-01T03:46:09.746827"
+    },
+    "SymbolicMeaning": "Tượng trưng cho tình hữu nghị và hòa hợp",
+    "EnergyType": "Tích cực",
+    "FavorableNumber": 7,
+    "FavorableColor": "Nâu",
+    "KoiFishOrigin": "Nhật Bản",
+    "KoiFishDescription": "Cá nổi tiếng với màu nâu đồng đều.",
+    "KoiFishPrice": 500.0
+  },
+  {
+    "Id": "69800458-e545-4ed3-b4c9-b8b9bb3edaf2",
+    "KoiFishName": "Ogon",
+    "KoiFishColor": "Vàng",
+    "KoiFishSize": 90.0,
+    "KoiFishAge": 4.0,
+    "KoiFishPictures": [
+      "KOI_FISH/m_gen_art-print-std-portrait-p1_6b810704-925c-42ff-842d-535d0ee4b6a5.avif"
+    ],
+    "FengShuiElement": {
+      "ElementId": "c2f3e234-8f61-4d89-b659-5e7cf65af9e9",
+      "ElementName": "Wood",
+      "ElementColor": "Green, Brown",
+      "ElementDirection": "East",
+      "ElementSeason": "Spring",
+      "ElementYinYang": "Yang",
+      "ElementAssociatedAnimals": "Tiger, Deer",
+      "ElementStrength": 70,
+      "CreatedAt": "2024-10-01T03:46:09.746827",
+      "UpdatedAt": "2024-10-01T03:46:09.746827"
+    },
+    "SymbolicMeaning": "Tượng trưng cho tài lộc và thành công",
+    "EnergyType": "Tích cực",
+    "FavorableNumber": 9,
+    "FavorableColor": "Vàng",
+    "KoiFishOrigin": "Nhật Bản",
+    "KoiFishDescription": "Cá vàng đồng nhất, biểu tượng của sự giàu có.",
+    "KoiFishPrice": 600.0
+  },
+  {
+    "Id": "c128a1e3-7332-40a1-ba45-5a1e624930e6",
+    "KoiFishName": "Shusui",
+    "KoiFishColor": "Xanh, Đỏ, Trắng",
+    "KoiFishSize": 90.0,
+    "KoiFishAge": 5.0,
+    "KoiFishPictures": [
+      "KOI_FISH/d641air-49ec0331-5488-48f6-bdf0-5c19f6e1c97b.jpg"
+    ],
+    "FengShuiElement": {
+      "ElementId": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "ElementName": "Water",
+      "ElementColor": "Black, Blue",
+      "ElementDirection": "North",
+      "ElementSeason": "Winter",
+      "ElementYinYang": "Yin",
+      "ElementAssociatedAnimals": "Turtles, Fish",
+      "ElementStrength": 80,
+      "CreatedAt": "2024-10-01T03:46:09.746827",
+      "UpdatedAt": "2024-10-01T03:46:09.746827"
+    },
+    "SymbolicMeaning": "Tượng trưng cho sự sáng tạo và đổi mới",
+    "EnergyType": "Tích cực",
+    "FavorableNumber": 5,
+    "FavorableColor": "Xanh",
+    "KoiFishOrigin": "Nhật Bản",
+    "KoiFishDescription": "Cá không có vảy, với màu xanh, đỏ và trắng.",
+    "KoiFishPrice": 400.0
+  },
+  {
+    "Id": "dfb0e94d-3516-4145-aad8-10af20eedfdb",
+    "KoiFishName": "Kikokuryu",
+    "KoiFishColor": "Đen, Bạc",
+    "KoiFishSize": 89.0,
+    "KoiFishAge": 5.0,
+    "KoiFishPictures": [
+      "KOI_FISH/m_gen_art-print-std-portrait-p1_57b7e14e-c9ad-4da8-a842-51410510d266.avif"
+    ],
+    "FengShuiElement": {
+      "ElementId": "e4f5e456-0174-4fab-c86b-7f9ef87c1abb",
+      "ElementName": "Metal",
+      "ElementColor": "White, Gray",
+      "ElementDirection": "West",
+      "ElementSeason": "Autumn",
+      "ElementYinYang": "Yang",
+      "ElementAssociatedAnimals": "Horses, Eagles",
+      "ElementStrength": 85,
+      "CreatedAt": "2024-10-01T03:46:09.746827",
+      "UpdatedAt": "2024-10-01T03:46:09.746827"
+    },
+    "SymbolicMeaning": "Tượng trưng cho sự bí ẩn và phong thái",
+    "EnergyType": "Bình ổn",
+    "FavorableNumber": 6,
+    "FavorableColor": "Bạc",
+    "KoiFishOrigin": "Nhật Bản",
+    "KoiFishDescription": "Cá lai tạo giữa Kumonryu và Ogon với màu đen và bạc.",
+    "KoiFishPrice": 480.0
+  }
+]

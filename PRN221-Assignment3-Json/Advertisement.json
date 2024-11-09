@@ -1,0 +1,58 @@
+[
+  {
+    "AdvertisementId": 1,
+    "Title": "Qu\u1EA3ng c\u00E1o c\u00E1 koi",
+    "Description": "Qu\u1EA3ng c\u00E1o c\u00E1 koi x\u1ECBn",
+    "Price": 200,
+    "KoiFishId": "c128a1e3-7332-40a1-ba45-5a1e624930e6",
+    "PostedByUserId": "09ba55cc-d0b1-7081-7f43-28efdc89752b"
+  },
+  {
+    "AdvertisementId": 2,
+    "Title": "Qu\u1EA3ng c\u00E1o c\u00E1 koi",
+    "Description": "Qu\u1EA3ng c\u00E1o c\u00E1 koi x\u1ECBn v2",
+    "Price": 200,
+    "KoiFishId": "c128a1e3-7332-40a1-ba45-5a1e624930e6",
+    "PostedByUserId": "09ba55cc-d0b1-7081-7f43-28efdc89752b"
+  },
+  {
+    "AdvertisementId": 3,
+    "Title": null,
+    "Description": null,
+    "Price": null,
+    "KoiFishId": "506437a1-7ca5-4984-888c-7c148ebda81c",
+    "PostedByUserId": null
+  },
+  {
+    "AdvertisementId": 4,
+    "Title": null,
+    "Description": null,
+    "Price": null,
+    "KoiFishId": "506437a1-7ca5-4984-888c-7c148ebda81c",
+    "PostedByUserId": null
+  },
+  {
+    "AdvertisementId": 5,
+    "Title": "Hello",
+    "Description": "Hello",
+    "Price": 233,
+    "KoiFishId": "506437a1-7ca5-4984-888c-7c148ebda81c",
+    "PostedByUserId": "c90ad50c-2021-70be-f930-b71ceb915306"
+  },
+  {
+    "AdvertisementId": 6,
+    "Title": "Qu\u1EA3ng c\u00E1o m\u1EDBi",
+    "Description": "Qu\u1EA3ng c\u00E1o m\u1EDBi Qu\u1EA3ng c\u00E1o m\u1EDBi",
+    "Price": 200,
+    "KoiFishId": "dfb0e94d-3516-4145-aad8-10af20eedfdb",
+    "PostedByUserId": "c90ad50c-2021-70be-f930-b71ceb915306"
+  },
+  {
+    "AdvertisementId": 7,
+    "Title": "Qu\u1EA3ng c\u00E1o c\u00E1 koi phong th\u1EE7y",
+    "Description": "C\u00E1 koi phong th\u1EE7y \u0111\u1EBFn t\u1EEB Nh\u1EADt B\u1EA3n",
+    "Price": 200,
+    "KoiFishId": "c128a1e3-7332-40a1-ba45-5a1e624930e6",
+    "PostedByUserId": "c90ad50c-2021-70be-f930-b71ceb915306"
+  }
+]

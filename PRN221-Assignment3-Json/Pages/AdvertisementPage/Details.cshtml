@@ -1,0 +1,35 @@
+﻿@page
+@model PRN221_Assignment3_Json.Pages.AdveritsementPage.DetailsModel
+@{
+}
+<h2>Advertisement Details</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px;">
+    <!-- Left Column: Koi Fish Image -->
+    <div>
+        <img src="https://d114iff5rn0elq.cloudfront.net/@Model.koiFish.KoiFishPictures[0]" alt="Koi Fish Image" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;" />
+    </div>
+
+    <!-- Right Column: Advertisement Details -->
+    <div>
+        <h3>@Model.advertisement.Title</h3>
+        <p><strong>Description:</strong> @Model.advertisement.Description</p>
+        <p><strong>Price:</strong> $@Model.advertisement.Price</p>
+         
+
+        <hr />
+
+        <h4>Koi Fish Details</h4>
+        <p><strong>Origin:</strong> @Model.koiFish.KoiFishOrigin</p>
+        <p><strong>Size:</strong> @Model.koiFish.KoiFishSize cm</p>
+        <p><strong>Age:</strong> @Model.koiFish.KoiFishAge years</p>
+        <p><strong>Color:</strong> @Model.koiFish.KoiFishColor</p>
+
+        <hr />
+
+        <h4>Posted By</h4>
+        <p><strong>Name:</strong> @Model.postedBy.Username</p>
+        <p><strong>Email:</strong> @Model.postedBy.Email</p>
+        <p><strong>Contact:</strong> @Model.postedBy.Username</p>
+    </div>
+</div>
